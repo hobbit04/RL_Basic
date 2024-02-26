@@ -12,3 +12,4 @@ def model(x, unpacked_params):
     y = torch.log_softmax(y, dim=0)
     return y
 
+# 수정사항입니다.
